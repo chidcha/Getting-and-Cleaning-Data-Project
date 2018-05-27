@@ -148,4 +148,10 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Datas
 16. Bind data to train_data variable.
 17. Merge test and train data to merge_data variable.
 18. Apply mean function to dataset using 'dcast' function.
-19. Write a table to file 'tidy_data.txt'.
+19. Write a table to file 'tidy_data.txt' by write.table() using row.name=FALSE.
+
+=========================================
+### Execute run_analysis.R by RStudio:
+- Go to work directory
+- Use command source('run_analysis.R')
+- Go to './UCI HAR Dataset/result/tidy_data.txt' for collect the resslt tidy data file.
