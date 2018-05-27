@@ -16,7 +16,7 @@ This file describes the variables, the data, and any transformations or work tha
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-=========================================
+
 A full description is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -80,7 +80,7 @@ The following files are available for the train and test data. Their description
 
 =========================================
 ### Notes: 
-=========================================
+
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 - The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
@@ -91,7 +91,7 @@ For more information about this dataset please contact: activityrecognition '@' 
 
 =========================================
 ### License:
-=========================================
+
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
 
