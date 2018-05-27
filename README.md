@@ -38,7 +38,7 @@ I have uploaded the code of my Getting-and-Cleaning-Data-Project at
 - Use command source('run_analysis.R')
 - Go to './UCI HAR Dataset/result/tidy_data.txt' for collect the resslt tidy data file.
 
->  My working directory
+> About my working directory
 - 'run_analysis.R' is in my working directory.
 
 >  My .UCI HAR Dataset directory is inside my working directory. This directory includes the following files and folders.
