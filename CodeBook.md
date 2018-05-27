@@ -158,16 +158,16 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Datas
 
 =========================================
 ### The variables of "./result/tidy_data.txt" file
--subject
--Activity_Label
--tBodyAcc-mean()-X
--tBodyAcc-mean()-Y
--tBodyAcc-mean()-Z
--tBodyAcc-std()-X
--tBodyAcc-std()-Y
--tBodyAcc-std()-Z
--tGravityAcc-mean()-X
--tGravityAcc-mean()-Y
+- subject
+- Activity_Label
+- tBodyAcc-mean()-X
+- tBodyAcc-mean()-Y
+- tBodyAcc-mean()-Z
+- tBodyAcc-std()-X
+- tBodyAcc-std()-Y
+- tBodyAcc-std()-Z
+- tGravityAcc-mean()-X
+- tGravityAcc-mean()-Y
 -tGravityAcc-mean()-Z
 -tGravityAcc-std()-X
 -tGravityAcc-std()-Y
