@@ -128,7 +128,7 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Datas
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 =========================================
-### Implement run_analysis.R by the above steps:
+### Implement run_analysis.R by the above steps and describe the variables:
 1. Require 'data.table'
 2. Require 'reshape2'
 3. Load the activity labels 'activity_labels.txt' from folder 'UCI HAR Dataset'.
