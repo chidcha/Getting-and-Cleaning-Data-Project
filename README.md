@@ -29,3 +29,28 @@ https://github.com/chidcha/Getting-and-Cleaning-Data-Project/blob/master/CodeBoo
 
 I have uploaded the code of my Getting-and-Cleaning-Data-Project at 
 [need to update the link]
+
+
+=========================================
+### How the script works
+### Execute run_analysis.R by RStudio:
+- Go to working directory
+- Use command source('run_analysis.R')
+- Go to './UCI HAR Dataset/result/tidy_data.txt' for collect the resslt tidy data file.
+
+>  My working directory
+-- 'run_analysis.R' is in my working directory.
+
+>  My .UCI HAR Dataset directory is inside my working directory. This directory includes the following files and folders.
+>  files
+-- .UCI HAR Dataset/README.txt
+-- .UCI HAR Dataset/features_info.txt
+-- .UCI HAR Dataset/features.txt
+-- .UCI HAR Dataset/activity_labels.txt
+>  folders
+-- result
+-- train
+-- test
+
+** After run run_analysis.R by RStudio:
+- Go to '.result/tidy_data.txt' for collect the resslt tidy data file.
