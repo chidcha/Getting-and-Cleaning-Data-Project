@@ -6,11 +6,10 @@
  - Microsoft Windows 10 Pro/R version 3.3.2 (2016-10-31)
 
 =========================================
-
 ### Description:
 This file describes the variables, the data, and any transformations or work that you performed to clean up the data.
 
-=========================================
+
 
 =========================================
 ### The data set
@@ -18,14 +17,14 @@ This file describes the variables, the data, and any transformations or work tha
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 =========================================
-### A full description is available at the site where the data was obtained:
+A full description is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
 =========================================
 ### Source:
-=========================================
+
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
 1 - Smartlab - Non-Linear Complex Systems Laboratory DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy. 
 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
@@ -33,7 +32,7 @@ Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08
 
 =========================================
 ### The data set description:
-=========================================
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities that combines a set of:-
 - WALKING, 
@@ -49,7 +48,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 =========================================
 ### Human Activity Recognition Using Smartphones Dataset Version 1.0
-=========================================
+
 
 =========================================
 ### For each record it is provided:
@@ -60,9 +59,10 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
+
 =========================================
 ### The dataset includes the following files:
-=========================================
+
 - 'README.txt'
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
@@ -79,7 +79,7 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 =========================================
-Notes: 
+### Notes: 
 =========================================
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
@@ -90,14 +90,14 @@ Notes:
 For more information about this dataset please contact: activityrecognition '@' smartlab.ws
 
 =========================================
-License:
+### License:
 =========================================
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
 
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
-=========================================
+
 Cr. http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names
 
 http://archive.ics.uci.edu/ml/machine-learning-databases/00240/ 
