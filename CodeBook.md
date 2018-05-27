@@ -1,6 +1,6 @@
 ##########################################################
-              Getting and Cleaning Data Project       
+###              Getting and Cleaning Data Project       
 ##########################################################
-Machine/Tool Specification
+### Machine/Tool Specification
  - Microsoft Windows 10 Pro/R version 3.3.2 (2016-10-31)
 ##########################################################
