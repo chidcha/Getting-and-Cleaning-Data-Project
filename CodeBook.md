@@ -119,7 +119,33 @@ UCI HAR Dataset.zip	15-Feb-2015 19:22	58M
 http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
 =========================================
+### Transformation details of this project are followed by the following steps:
 
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-
-
+=========================================
+### Implement run_analysis.R by the above steps:
+1. Require 'data.table'
+2. Require 'reshape2'
+3. Load the activity labels 'activity_labels.txt' from folder 'UCI HAR Dataset'.
+4. Load the data column names 'features.txt' from folder 'UCI HAR Dataset'.
+5. Extract only the measurements on the mean and standard deviation for each measured feature.
+6. Load and process X_test data from './UCI HAR Dataset/test/X_test.txt' 
+   and load and process y_test data from './UCI HAR Dataset/test/y_test.txt'.
+7. Load and process Subject_test data from './UCI HAR Dataset/test/subject_test.txt'.
+8. Extract only the measurements on the mean and standard deviation for each measurement of tested feature.
+9. Load activity labels.
+10. Bind data to test_data variable.
+11. Load and process X_train data from '/UCI HAR Dataset/train/X_train.txt'.
+12. Load and process y_train data from './UCI HAR Dataset/train/y_train.txt'.
+13. Load and process subject_train data from './UCI HAR Dataset/train/subject_train.txt'.
+14. Extract only the measurements on the mean and standard deviation for each measurement of x_train.
+15. Load activity data.
+16. Bind data to train_data variable.
+17. Merge test and train data to merge_data variable.
+18. Apply mean function to dataset using 'dcast' function.
+19. Write a table to file 'tidy_data.txt'.
