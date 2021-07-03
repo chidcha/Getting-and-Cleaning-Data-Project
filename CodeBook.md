@@ -94,8 +94,8 @@ The following files are available for the train and test data. Their description
 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
-- The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
-- The gyroscope units are rad/seg.
+- The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/s2).
+- The gyroscope units are rad/s.
 - A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following link: http://www.youtube.com/watch?v=XOEN9W05_4A
 
 For more information about this dataset please contact: activityrecognition '@' smartlab.ws
