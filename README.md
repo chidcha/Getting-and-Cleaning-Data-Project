@@ -63,7 +63,7 @@ You should create one R script called run_analysis.R that does the following.
 - test >>มีอยู่แล้ว
 
 ** After run run_analysis.R by RStudio:
-- Go to '.result/tidy_data.txt' for collect the resslt tidy data file.
+- Go to '.result/tidy_data.txt' for collect the result tidy data file.
 
 
 ### ---------------------------------------------------------------------------
